@@ -1,0 +1,87 @@
+*{
+    font-family:  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main
+{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content
+{
+    height: fit-content;
+    width: 50%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+input[type=text] {
+    width: 70%;
+    margin: 8px 0;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    display: inline-block;
+    font-size: 1rem;
+    background-color: rgba(128, 128, 128, 0.092);
+    border: none;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+.submit
+{
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 0px;
+    padding: 12px;
+    background-color: rgba(0, 0, 255, 0.128);
+}
+.submit:hover
+{
+    cursor: pointer;
+    color: white;
+    background-color: green;
+}
+.inputs
+{
+    width: 100%;
+    margin-left: 20%;
+}
+.enter{
+    height: 50%;
+}
+.null{
+    display: none;
+    background-color: rgba(128, 128, 128, 0.162);
+    padding: 5px;
+    color: rgba(255, 0, 0, 0.765);
+    border-radius: 8px ;
+}
+.empty-item{
+    height: fit-content;
+    width: 70%;
+    display: none;
+    justify-content: space-around;
+}
+.empty-item:hover{
+      background-color: rgba(128, 128, 128, 0.092);
+      border-radius: 15px;
+}
+.item-name{
+    width: 100%;
+}
+.icons{
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+    align-items: center;
+}
+.icons:hover{
+    cursor: pointer;
+}
